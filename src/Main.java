@@ -15,6 +15,7 @@ public class Main {
         System.out.println(res);
         System.out.println(res2);
         System.out.println(~res);
+        System.out.println(7^9);
 
 
     }
