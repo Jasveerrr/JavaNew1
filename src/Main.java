@@ -34,7 +34,15 @@ public class Main {
         int age =17;
         System.out.println(age>18?"Old":"Minor");
 
+         if (age<18){
+             System.out.println("minor");
+         } else if (age>18&&age<60) {
+             System.out.println("adult");
 
 
+         }
+         else {
+             System.out.println("old");
+         }
     }
 }
