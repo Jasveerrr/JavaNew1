@@ -6,6 +6,8 @@ public class Main {
 //        num1+=num1+num2;
 //        System.out.println(num1);
 //        System.out.println(num5);
+        //&&=trueor false
+        //&=number
         int num1 = 4;
         int num= 2;
         int res=num1&num;
