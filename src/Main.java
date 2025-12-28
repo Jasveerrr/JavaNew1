@@ -24,6 +24,13 @@ public class Main {
         System.out.println(~res);
         System.out.println(res3);
 
+        //ROTATION MAARO MKB AAAAAGGGGG//
+        int num4=9;
+        int rotation =2;
+        System.out.println(2<<9);
+        System.out.println(9>>2);
+
+
 
     }
 }
