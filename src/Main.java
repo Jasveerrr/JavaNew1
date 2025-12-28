@@ -6,7 +6,7 @@ public class Main {
 //        num1+=num1+num2;
 //        System.out.println(num1);
 //        System.out.println(num5);
-        //&&=trueor false
+        //&&=true or false
         //&=number
         int num1 = 4;
         int num= 2;
@@ -14,6 +14,7 @@ public class Main {
         int res2=num1|num;
         System.out.println(res);
         System.out.println(res2);
+        System.out.println(~res);
 
 
     }
