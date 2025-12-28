@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        System.out.println("Hello Git!");
@@ -36,13 +38,26 @@ public class Main {
 
          if (age<18){
              System.out.println("minor");
-         } else if (age>18&&age<60) {
+         } else if (age>18 && age<60) {
              System.out.println("adult");
-
-
          }
          else {
              System.out.println("old");
          }
+
+        Scanner Sc = new Scanner(System.in);
+        System.out.print("Number De: ");
+        int sc = Sc.nextInt();
+
+        if(sc % 3 == 0 && sc % 5 == 0){
+            System.out.println("FizzBuzz");
+        }else if(sc % 3 == 0){
+            System.out.println("Fizz");
+        }else if(sc % 5 == 0){
+            System.out.println("Buzz");
+        }else{
+            System.out.println(sc);
+        }
+
     }
 }
