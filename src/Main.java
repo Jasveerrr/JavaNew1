@@ -30,6 +30,10 @@ public class Main {
         System.out.println(2<<9);
         System.out.println(9>>2);
 
+        String isEvenOdd=num2%2==0?"Even":"Odd";
+        int age =17;
+        System.out.println(age>18?"Old":"Minor");
+
 
 
     }
