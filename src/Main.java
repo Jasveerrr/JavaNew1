@@ -6,10 +6,13 @@ public class Main {
 //        num1+=num1+num2;
 //        System.out.println(num1);
 //        System.out.println(num5);
-int num1 = 4;
-int num= 2;
-int res=num1&num;
+        int num1 = 4;
+        int num= 2;
+        int res=num1&num;
+        int res2=num1|num;
         System.out.println(res);
+        System.out.println(res2);
+
 
     }
 }
