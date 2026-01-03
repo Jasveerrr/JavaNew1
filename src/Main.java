@@ -113,7 +113,7 @@ public class Main {
                 System.out.println("Result: " + result);
 
                 sc.close();
-                hi
+        System.out.println(hello);
             }
         }
 
