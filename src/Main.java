@@ -16,53 +16,106 @@ public class Main {
         // &&=true or false//
         // &=number //
 
-        int num1 = 4;
-        int num2= 2;
-        int res=num1 & num2;
-        int res2=num1 | num2;
-        int res3=num1 ^ num2;
-        System.out.println(res);
-        System.out.println(res2);
-        System.out.println(~res);
-        System.out.println(res3);
+//        int num1 = 4;
+//        int num2= 2;
+//        int res=num1 & num2;
+//        int res2=num1 | num2;
+//        int res3=num1 ^ num2;
+//        System.out.println(res);
+//        System.out.println(res2);
+//        System.out.println(~res);
+//        System.out.println(res3);
+//
+//        //ROTATION MAARO MKB AAAAAGGGGG//
+//        int num4=9;
+//        int rotation =2;
+//        System.out.println(2<<9);
+//        System.out.println(9>>2);
+//
+//        String isEvenOdd=num2%2==0?"Even":"Odd";
+//        int age =17;
+//        System.out.println(age>18?"Old":"Minor");
+//
+//         if (age<18){
+//             System.out.println("minor");
+//         } else if (age>18 && age<60) {
+//             System.out.println("adult");
+//         }
+//         else {
+//             System.out.println("old");
+//         }
+//
+//        Scanner Sc = new Scanner(System.in);
+//        System.out.print("Number De: ");
+//        int sc = Sc.nextInt();
+//
+//        if(sc % 3 == 0 && sc % 5 == 0){
+//            System.out.println("FizzBuzz");
+//        }else if(sc % 3 == 0){
+//            System.out.println("Fizz");
+//        }else if(sc % 5 == 0){
+//            System.out.println("Buzz");
+//        }else{
+//            System.out.println(sc);
 
-        //ROTATION MAARO MKB AAAAAGGGGG//
-        int num4=9;
-        int rotation =2;
-        System.out.println(2<<9);
-        System.out.println(9>>2);
+//            int num=0;
+//          while (num<=10) {
+//              System.out.println(num);
+//
+//            num++;
 
-        String isEvenOdd=num2%2==0?"Even":"Odd";
-        int age =17;
-        System.out.println(age>18?"Old":"Minor");
 
-         if (age<18){
-             System.out.println("minor");
-         } else if (age>18 && age<60) {
-             System.out.println("adult");
-         }
-         else {
-             System.out.println("old");
-         }
+                Scanner sc = new Scanner(System.in);
 
-        Scanner Sc = new Scanner(System.in);
-        System.out.print("Number De: ");
-        int sc = Sc.nextInt();
 
-        if(sc % 3 == 0 && sc % 5 == 0){
-            System.out.println("FizzBuzz");
-        }else if(sc % 3 == 0){
-            System.out.println("Fizz");
-        }else if(sc % 5 == 0){
-            System.out.println("Buzz");
-        }else{
-            System.out.println(sc);
+                System.out.print("Enter first number: ");
+                double num1 = sc.nextDouble();
 
-            int num=0;
-            while(num<=10);
-            System.out.println(num);
-            num++;
+
+                System.out.print("Enter operator (+, -, *, /): ");
+                char operator = sc.next().charAt(0);
+
+                // Input second number
+                System.out.print("Enter second number: ");
+                double num2 = sc.nextDouble();
+
+                double result;
+
+                // Perform calculation
+                switch (operator) {
+                    case '+':
+                        result = num1 + num2;
+                        break;
+
+                    case '-':
+                        result = num1 - num2;
+                        break;
+
+                    case '*':
+                        result = num1 * num2;
+                        break;
+
+                    case '/':
+                        if (num2 != 0) {
+                            result = num1 / num2;
+                        } else {
+                            System.out.println("Error: Division by zero is not allowed.");
+                            return;
+                        }
+                        break;
+
+                    default:
+                        System.out.println("Error: Invalid operator.");
+                        return;
+                }
+
+                // Output result
+                System.out.println("Result: " + result);
+
+                sc.close();
+            }
         }
 
-    }
-}
+
+
+
