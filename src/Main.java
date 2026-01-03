@@ -57,6 +57,11 @@ public class Main {
             System.out.println("Buzz");
         }else{
             System.out.println(sc);
+
+            int num=0;
+            while(num<=10);
+            System.out.println(num);
+            num++;
         }
 
     }
