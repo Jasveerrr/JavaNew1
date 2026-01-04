@@ -146,18 +146,30 @@ public class Main {
 //            num++;    // infinite loop
 //        }
 
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.print("Enter a number: ");
+//        int n = sc.nextInt();
+//        System.out.println("Divisors of " + n + " are:");
+//
+//        for (int i = 1; i <= n; i++) {
+//            if (n % i == 0) {
+//                System.out.print(i + " ");
+//
+//            }
+//        }
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter size: ");
         int n = sc.nextInt();
-        System.out.println("Divisors of " + n + " are:");
 
-        for (int i = 1; i <= n; i++) {
-            if (n % i == 0) {
-                System.out.print(i + " ");
+        for (int itr_val = 1; itr_val <= n; itr_val++) {
 
+            for (int itr_val2 = 1; itr_val2 <= n; itr_val2++) {
+                System.out.print("* ");
             }
-        }
+
+            System.out.println();
     }
 }
 
