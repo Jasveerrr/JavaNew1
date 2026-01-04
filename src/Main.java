@@ -64,58 +64,90 @@ public class Main {
 //
 //            num++;
 
+//
+//                Scanner sc = new Scanner(System.in);
+//
+//
+//                System.out.print("Enter first number: ");
+//                double num1 = sc.nextDouble();
+//
+//
+//                System.out.print("Enter operator (+, -, *, /): ");
+//                char operator = sc.next().charAt(0);
+//
+//                // Input second number
+//                System.out.print("Enter second number: ");
+//                double num2 = sc.nextDouble();
+//
+//                double result;
+//
+//                // Perform calculation
+//                switch (operator) {
+//                    case '+':
+//                        result = num1 + num2;
+//                        break;
+//
+//                    case '-':
+//                        result = num1 - num2;
+//                        break;
+//
+//                    case '*':
+//                        result = num1 * num2;
+//                        break;
+//
+//                    case '/':
+//                        if (num2 != 0) {
+//                            result = num1 / num2;
+//                        } else {
+//                            System.out.println("Error: Division by zero is not allowed.");
+//                            return;
+//                        }
+//                        break;
+//
+//                    default:
+//                        System.out.println("Error: Invalid operator.");
+//                        return;
+//                }
+//
+//                // Output result
+//                System.out.println("Result: " + result);
+//
+//                sc.close();
+//        System.out.println(hello);
 
-                Scanner sc = new Scanner(System.in);
+
+//                int a = 5;
+//                int b;
+//
+//                // Post-increment
+//                b = a++;
+//                System.out.println("Post-increment (a++): a = " + a + ", b = " + b);
+//
+//                // Pre-increment
+//                a = 5;
+//                b = ++a;
+//                System.out.println("Pre-increment (++a): a = " + a + ", b = " + b);
+//
+//                // Post-decrement
+//                a = 5;
+//                b = a--;
+//                System.out.println("Post-decrement (a--): a = " + a + "
 
 
-                System.out.print("Enter first number: ");
-                double num1 = sc.nextDouble();
+//        int num=0;
+//        do {
+//            System.out.println(num);
+//            num++;
+//        } while (num>5);
 
+//        int num=0;
+//        for(;;){
+//            System.out.println(num);
+//            num++;    // infinite loop
+//        }
 
-                System.out.print("Enter operator (+, -, *, /): ");
-                char operator = sc.next().charAt(0);
-
-                // Input second number
-                System.out.print("Enter second number: ");
-                double num2 = sc.nextDouble();
-
-                double result;
-
-                // Perform calculation
-                switch (operator) {
-                    case '+':
-                        result = num1 + num2;
-                        break;
-
-                    case '-':
-                        result = num1 - num2;
-                        break;
-
-                    case '*':
-                        result = num1 * num2;
-                        break;
-
-                    case '/':
-                        if (num2 != 0) {
-                            result = num1 / num2;
-                        } else {
-                            System.out.println("Error: Division by zero is not allowed.");
-                            return;
-                        }
-                        break;
-
-                    default:
-                        System.out.println("Error: Invalid operator.");
-                        return;
-                }
-
-                // Output result
-                System.out.println("Result: " + result);
-
-                sc.close();
-        System.out.println(hello);
-            }
-        }
+//            }
+//        }
 
 
 
