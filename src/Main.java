@@ -155,7 +155,7 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
                 System.out.print(i + " ");
-                System.out.print(Welcome krishna);
+                System.out.print("hello");
 
             }
         }
