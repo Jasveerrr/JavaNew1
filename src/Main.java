@@ -158,19 +158,19 @@ public class Main {
 //
 //            }
 //        }
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter size: ");
-        int n = sc.nextInt();
-
-        for (int itr_val = 1; itr_val <= n; itr_val++) {
-
-            for (int itr_val2 = 1; itr_val2 <= n; itr_val2++) {
-                System.out.print("* ");
-            }
-
-            System.out.println();
-        }
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.print("Enter size: ");
+//        int n = sc.nextInt();
+//
+//        for (int itr_val = 1; itr_val <= n; itr_val++) {
+//
+//            for (int itr_val2 = 1; itr_val2 <= n; itr_val2++) {
+//                System.out.print("* ");
+//            }
+//
+//            System.out.println();
+//        }
     }
 }
 
